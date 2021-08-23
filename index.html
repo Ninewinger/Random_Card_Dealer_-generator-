@@ -13,30 +13,31 @@
 
 <body>
     <div class="container">
-        <div class="d-flex justify-content-between m-3" id="carta">
-            <div>
-                <p class="display-5" id="pinta1"></p>
+        <div class="row d-flex justify-content-center">
+            <div class="d-flex justify-content-between m-3" id="carta">
+                <div>
+                    <p class="display-5" id="pinta1"></p>
+                </div>
+                <div class="align-self-center">
+                    <p class="display-1 " id="numero"></p>
+                </div>
+                <div class="align-self-end">
+                    <p class="display-5" id="pinta2"></p>
+                </div>
             </div>
-            <div class="align-self-center">
-                <p class="display-1 " id="numero"></p>
-            </div>
-            <div class="align-self-end">
-                <p class="display-5" id="pinta2"></p>
-            </div>
-        </div>
-        <div id="interfase" class="m-3">
-            <button id="boton_generador" type="button" class="mb-3 btn btn-primary">Carta-Random</button>
-            <div class="form-floating mb-2">
-                <input class="form-control" id="alto" placeholder="Alto" type="text"></input>
-                <label for="alto">Alto en pixeles</label>
-            </div>
-            <div class="form-floating mb-2">
-                <input class="form-control" id="ancho" placeholder="Ancho" type="text"></input>
-                <label for="ancho">Ancho en pixeles</label>
-            </div>
-            
-            <div class="spinner-border text-primary" role="status">
-                <span id="timer"></span>
+            <div id="interfase" class="m-3">
+                <button id="boton_generador" type="button" class="mb-3 btn btn-primary">Carta-Random</button>
+                <div class="form-floating mb-2">
+                    <input class="form-control" id="alto" placeholder="Alto" type="text"></input>
+                    <label for="alto">Alto en pixeles</label>
+                </div>
+                <div class="form-floating mb-2">
+                    <input class="form-control" id="ancho" placeholder="Ancho" type="text"></input>
+                    <label for="ancho">Ancho en pixeles</label>
+                </div>
+                <div class="spinner-border text-primary" role="status">
+                    <span id="timer"></span>
+                </div>
             </div>
         </div>
     </div>
